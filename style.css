@@ -5,6 +5,10 @@
     min-height: 500px;
     margin-bottom: 0px;
 }
+.socialIcons img{
+width :50px;
+float: left;
+}
   body {
     font-family: 'Open Sans', sans-serif;
 }
