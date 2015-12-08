@@ -6,11 +6,19 @@
     margin-bottom: 0px;
 }
 .jumbotron2 {
+    background-image: url('images/image3.jpg');
+    background-attachment: fixed;
+    min-height: 500px;
+    min-width: 100%;
+    margin-bottom: 0px;
+}
+.jumbotron3 {
     background-image: url('images/image2.jpg');
     background-attachment: fixed;
     min-height: 500px;
     margin-bottom: 0px;
 }
+
 .socialIcons img{
 width :50px;
 float: left;
