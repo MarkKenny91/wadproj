@@ -5,6 +5,12 @@
     min-height: 500px;
     margin-bottom: 0px;
 }
+.jumbotron2 {
+    background-image: url('images/image2.jpg');
+    background-attachment: fixed;
+    min-height: 500px;
+    margin-bottom: 0px;
+}
 .socialIcons img{
 width :50px;
 float: left;
