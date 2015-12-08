@@ -1,3 +1,10 @@
+ /*jumbotron bootstrap */
+.jumbotron {
+    background-image: url('images/image1.jpg');
+    background-attachment: fixed;
+    min-height: 500px;
+    margin-bottom: 0px;
+}
   body {
     font-family: 'Open Sans', sans-serif;
 }
