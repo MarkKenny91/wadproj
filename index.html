@@ -40,12 +40,6 @@
 
             </div>
         </div>
-    <div class = "pull-right">
-        <form action="" autocomplete="on">
-            <input id="search" name="search" type="text" placeholder="Search...">
-            <input id="search_submit" value="Rechercher" type="submit">
-        </form>
-    </div>
                 
     </header>
     <div class="jumbotron">
@@ -60,13 +54,16 @@
                 <button class="drop" name = "PC Components" position = "center">
                     <span class="menu-item" position = "center">PC Components</span>
                 </button>
-                <button class="drop" name = "Peripherals" position = "center">
-                    <span class="menu-item" position = "center">Peripherals</span>
+                <button class="drop" name = "Peripherals" >
+                    <span class="menu-item">Peripherals</span>
                 </button>
             </div>
         </nav>
     </div>
-
+    <form role = "form" action="server.js" autocomplete="on">
+        <input id="search" name="search" type="text" placeholder="Search...">
+        <input id="search_submit" value="Rechercher" type="submit">
+    </form>
     <div class="container-fluid container-sm-height">
         <div class="row row-sm-height">
             <section class="col-sm-8 col-sm-push-2">
