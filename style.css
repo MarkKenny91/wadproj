@@ -146,66 +146,160 @@ body {
 /*    padding-top: 10%;*/
 /*}*/
 
-#wrap {
-  margin: 50px 100px;
-  display: inline-block;
-  position: relative;
-  height: 60px;
-  float: right;
-  padding: 0;
-  position: relative;
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+a[class*="fontawesome-"]:before,
+span[class*="fontawesome-"]:before {
+	display: block;
+	font-family: 'FontAwesome', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
-input[type="text"] {
-  height: 40px;
-  font-size: 12px;
-  display: inline-block;
-  font-family: "Lato";
-  font-weight: 100;
-  border: none;
-  outline: none;
-  color: #555;
-  padding: 3px;
-  padding-right: 60px;
-  width: 0px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: none;
-  z-index: 3;
-  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
-  cursor: pointer;
+/* ---------- GENERAL ---------- */
+
+* {
+  box-sizing: border-box;
+  
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+  
 }
 
-input[type="text"]:focus:hover {
-  border-bottom: 1px solid #BBB;
+body {
+	background: #ccc;
+	font: 87.5%/1.5em 'Open Sans', sans-serif;
+	margin: 0;
 }
 
-input[type="text"]:focus {
-  width: 700px;
-  z-index: 1;
-  border-bottom: 1px solid #BBB;
-  cursor: text;
-}
-input[type="submit"] {
-  height: 40px;
-  width: 25px;
-  display: inline-block;
-  color:red;
-  float: right;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
-  text-indent: -10000px;
-  border: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  cursor: pointer;
-  opacity: 0.4;
-  cursor: pointer;
-  transition: opacity .4s ease;
+a {
+	text-decoration: none;
 }
 
-input[type="submit"]:hover {
-  opacity: 0.8;
+button {
+    -webkit-appearance: button;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-transform: none;
 }
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	line-height: inherit;
+	margin: 0;
+  outline: 0;
+	padding: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* ---------- CLASSES ---------- */
+
+.clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    content: ' ';
+    display: table;	
+  }
+  
+  &:after {
+    clear: both;
+  }
+
+}
+
+.container {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---------- TOOLBAR ---------- */
+
+.toolbar {
+	color: #fff;
+}
+
+.toolbar li {
+	float: left;
+}
+
+.toolbar li:first-child a { border-radius: .5em 0 0 .5em; }
+.toolbar li:last-child button { border-radius: 0 .5em .5em 0; }
+
+.toolbar a,
+.toolbar input[type="search"],
+.toolbar button {
+	background: #3598db;
+	color: #fff;
+	display: block;
+	padding: .5em 1em;
+	position: relative;
+}
+
+.toolbar a:hover,
+.toolbar input[type="search"]:hover,
+.toolbar input[type="search"]:focus,
+.toolbar button:hover {
+	background: #2a80b9;
+}
+
+.toolbar input[type="search"] {
+	display: none;
+	height: 21px;
+	width: 177px;
+}
+
+.toolbar input[type="search"]::-webkit-input-placeholder { color: #fff; }
+.toolbar input[type="search"]::-moz-placeholder { color: #fff; opacity: 1; }
+.toolbar input[type="search"]:-moz-placeholder { color: #fff; opacity: 1; }
+.toolbar input[type="search"]:-ms-input-placeholder { color: #fff; }
