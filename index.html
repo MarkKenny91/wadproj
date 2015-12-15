@@ -22,7 +22,8 @@
     </head>
     
     <body>
-        
+        	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
         
         <header class="container-fluid">
             <div class="navbar navbar-fixed-top navbar-inverse">
@@ -35,9 +36,23 @@
           <div class="pull-right">
                
                
-        <form action="" autocomplete="on">
-  <input id="search" name="search" type="text" placeholder="What're we looking for ?"><input id="search_submit" value="Rechercher" type="submit">
-  </form>
+        <form action="javascript:void(0);" method="get">
+			
+			<fieldset>
+				
+				<ul class="toolbar clearfix">
+
+					<li><a href="#" class="fontawesome-heart"></a></li>
+					<li><a href="#" class="fontawesome-eye-open"></a></li>
+					<li><a href="#" class="fontawesome-comment"></a></li>
+					<li><input type="search" id="search" placeholder="What are you looking for?"></li>
+					<li><button type="submit" id="btn-search"><span class="fontawesome-search"></span></button></li>
+
+				</ul>
+
+			</fieldset>
+
+		</form>
             
           </div>
         </div>
