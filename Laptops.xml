@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<laptops>
+	<laptop>
+		<type>Home Laptop</type>
+		<title>HP</title>
+		<model>250 G3</model>
+		<motherboard>HP</motherboard>
+		<cpu>Intel Core i3</cpu>
+		<ram>4 GB RAM</ram>
+		<storage>mSATA solid state drive</storage>
+		<gpu>Intel HD 4400 Graphics</gpu>
+		<psu>Integrated</psu>
+	</laptop>
+	<laptop>
+		<type>Gaming Laptop</type>
+		<title>ASUS</title>
+		<model>ROG G 551JW-Cn080H - 15.6"</model>
+		<motherboard>ASUS</motherboard>
+		<cpu>Intel i7-4720HQ</cpu>
+		<ram>32 GB RAM</ram>
+		<storage>250 GB SSD</storage>
+		<gpu>~NVIDIA GTX 980M(4 GB DDR5)</gpu>
+		<psu>Integrated</psu>
+	</laptop>
+	<laptop>
+		<type>Workstation Laptop</type>
+		<title>MSI</title>
+		<model>WT70 20K 2086UK Mobile Workstation</model>
+		<motherboard>MSI</motherboard>
+		<cpu>Intel core i7-4810HQ</cpu>
+		<ram>16 GB DDR3</ram>
+		<storage>2x 128GB SSD + 1 TB 7200rpm HDD</storage>
+		<gpu>NVIDIA Quadro k3100M 4GB GDDR5</gpu>
+		<psu>Integrated</psu>
+	</laptop>
+</laptops>
