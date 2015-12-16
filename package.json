@@ -1,13 +1,26 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
-    "express": "~3.2.4",
+    "body-parser": "^1.14.1",
     "fs": "0.0.2",
     "js2xmlparser": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkKenny91/wadproj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkKenny91/wadproj/issues"
+  },
+  "homepage": "https://github.com/MarkKenny91/wadproj#readme"
 }

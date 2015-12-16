@@ -9,7 +9,7 @@ var xslt = require('node_xslt');
 var router = express();
 var server = http.createServer(router);
 
-router.use(express.static(path.resolve(__dirname, 'client')));
+router.use(express.static(path.resolve(__dirname, 'public')));
 router.use(bodyParser.urlencoded({extended: true}));
 router.use(bodyParser.json());
 
@@ -21,16 +21,16 @@ router.get('/', function(req, res) {
 // GET request to send back JSON file
 router.get('/get/json', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
-  var obj = JSON.parse(fs.readFileSync('Countries.json', 'utf8'));
+  var obj = JSON.parse(fs.readFileSync('Computers.json', 'utf8'));
   res.end(JSON.stringify(obj));
 });
 
 // HTML produced by XSL Transformation
-router.get('/get/html', function(req, res) {
+router.get('/Computers.html', function(req, res) {
   
   // Read in XML and XSL files
-  var stylesheet = xslt.readXsltFile('Countries.xsl');
-  var doc = xslt.readXmlFile('Countries.xml');
+  var stylesheet = xslt.readXsltFile('Computers.xsl');
+  var doc = xslt.readXmlFile('Computers.xml');
   
   // Apply transformation
   var result = xslt.transform(stylesheet, doc, []);

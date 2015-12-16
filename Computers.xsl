@@ -20,7 +20,7 @@
 			<body>
 				<table>
 					<tr>
-						<th>Computer Type</th>
+						<th>Desktop Type</th>
 						<th>Title</th>
 						<th>Model</th>
 						<th>Motherboard</th>

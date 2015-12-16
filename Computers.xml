@@ -12,6 +12,7 @@
 		<psu>Super Flower 850W</psu>
 	</computer>
 	<computer>
+		<type>Home</type>
 		<title>Primo</title>
 		<model>Nano 3 Haswell Micro PC</model>
 		<motherboard>GA-Z97X-Game Plus (rev. 1.0)</motherboard>
