@@ -1,18 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version-"2.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<xml-stylesheet type="text/css" href="rss.css">
+
     <channel>
-        <title> Computech - Updates </title>
-        <link> https://compu-tech-ltd-x14114640.c9users.io/ </link>
-        <description> Updates </description>
-        <language> en-uk </language>
+        <title>Computech Updates</title>
+        <link>https://compu-tech-ltd-x14114640.c9users.io/</link>
+        <description>Updates on our stocks</description>
+        <item>
+            <title>Processors!</title>
+            <description>New Intel 5960X Extreme processors have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Laptops!</title>
+            <description>New ASUS ROG G 551JW-Cn080H - 15.6" gaming laptops have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Graphics Cards!</title>
+            <description>New Asus Radeon R9 gaming graphics cards have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Processors!</title>
+            <description>New Intel 5960X Extreme processors have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Processors!</title>
+            <description>New Intel 5960X Extreme processors have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Processors!</title>
+            <description>New Intel 5960X Extreme processors have been added to our stocks!</description>
+        </item>
+    </channel> 
     
-    <item>
-        <title> New Processors</title>
-        <pubDate>Fri 11 Dec 2015 11:22 </pubDate>
-        <link> https://compu-tech-ltd-x14114640.c9users.io/  </link>
-        <description><![CDATA[Visit this <a href="https://compu-tech-ltd-x14114640.c9users.io/" link</a> to Components]]></description>
-    </item>
-    
-    </channel>
-</rss>
+
 <root />
