@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peripherals>
+	<peripheral>
+		<type>PC Headphones</type>
+		<title>Razer</title>
+		<model>Kraken Forged Edition</model>
+		<features>
+			Drivers: 40 mm Neodymium Magnets
+			Frequency Response: 20 – 20,000 Hz
+			Impedance: 32 Ω at 1kHz
+			Sensitivity @ 1 kHz: 100 dB ± 3 dB
+			Input Power: 30 mW
+		</features>
+	</peripheral>
+	<peripheral>
+		<type>Gaming Mechanical Keyboard</type>
+		<title>Asus</title>
+		<model>Strix Tactic Pro Backlit</model>
+		<features>
+			Strix Tactic Pro is powered by full mechanical switches,
+			giving gamers the best touch typing feeling.
+			It features 13 dedicated macro keys
+			and extra 8 macro keys can be enabled from F1-F8
+		</features>
+	</peripheral>
+	<peripheral>
+		<type>PC Speaker System</type>
+		<title>Microlab</title>
+		<model>M700 62W RMS 5.1 Speaker System</model>
+		<features>
+			This is the 5.1 version of the M-700 system,
+			combining an elegant and rigorous subwoofer
+			with compact and light satellites.
+		</features>
+	</peripheral>
+	<peripheral>
+		<type>Gaing Mouse</type>
+		<title>Logitech</title>
+		<model>G502 Proteus Core</model>
+		<features>
+			As unique as you. Every gamer dominates differently.
+			G502 Proteus Core is designed to let you mod it
+			with unparalleled levels of customisation
+		</features>
+	</peripheral>
+	<peripheral>
+		<type>PC Webcam</type>
+		<title>Microsoft</title>
+		<model>Lifecam Studio webcam 1080p</model>
+		<features>
+			The closest to being there.
+			Experience the vivid sights, sounds
+			and colors of real life with HD video.
+		</features>
+	</peripheral>
+	<peripheral>
+		<type>Gaming Controller</type>
+		<title>NVIDIA SHIELD</title>
+		<model>Wireless Controller</model>
+		<features>
+			The NVIDIA SHIELD Wireless Controller works seamlessly with your SHIELD Tablet
+			and SHIELD Portable for exceptional responsiveness
+			and immersion in todays hottest games.
+		</features>
+	</peripheral>
+</peripherals>

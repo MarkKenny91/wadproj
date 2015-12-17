@@ -17,14 +17,28 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $("button").click(function() {
-                $(".targetDIV1").load("Computers.html");
+                $(".targetDIV").load("Computers.html");
             });
         });
     </script>
     <script type="text/javascript">
         $(document).ready(function() {
             $("button").click(function() {
-                $(".targetDIV2").load("Laptops.html");
+                $(".targetLaptops").load("Laptops.html");
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("button").click(function() {
+                $(".targetPcComponents").load("PcComponents.html");
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("button").click(function() {
+                $(".targetPeripherals").load("Peripherals.html");
             });
         });
     </script>
@@ -59,61 +73,63 @@
 
     </header>
     <div class="jumbotron">
-        <nav class="navbar-fixed-top" position="center">
-            <div id="main-navigation" position="center">
-                <button class="menu-button" name="Desktop Computers">
-                    <span class="menu-item" position="center">Desktop Computers</span>
-                </button>
-                <button class="menu-button" name="Laptops" position="center">
-                    <span class="menu-item" position="center">Laptops</span>
-                </button>
-                <button class="menu-button" name="PC Components" position="center">
-                    <span class="menu-item" position="center">PC Components</span>
-                </button>
-                <button class="menu-button" name="Peripherals" position="center">
-                    <span class="menu-item" position="center">Peripherals</span>
-                </button>
-            </div>
-        </nav>
     </div>
-    <form role="form" action="server.js" autocomplete="on">
-        <input id="search" name="search" type="text" placeholder="Search...">
-        <input id="search_submit" value="Rechercher" type="submit">
-    </form>
+    <div>
+        <form role="form" action="server.js" autocomplete="on">
+            <input id="search" name="search" type="text" placeholder="Search...">
+            <input id="search_submit" value="Rechercher" type="submit">
+        </form>
+    </div>
     <div class="container-fluid container-sm-height">
         <div class="row row-sm-height">
             <section class="col-sm-8 col-sm-push-2">
-                <article class="targetArcticle1">
+                <article class="targetArcticle">
                     <h2>Desktop Computers</h2>
                     <div class="row">
                         <p class="col-sm-10">
                         We provide a variety of Desktop types to the consumers according to their daily needs
-                        <button>View our Desktops range here...</button>
-                            <div class="targetDIV1">
+                        <button>View our range here...</button>
+                            <div class="targetDIV">
     
                             </div>
                         </p>
                     </div>
                 </article>
-                <article>
-                </article>
-        </div>
-        
-        <div class="row row-sm-height">
-            <section class="col-sm-8 col-sm-push-2">
-                <article class="targetArcticle2">
+                <article class="targetArcticle">
                     <h2>Laptops</h2>
                     <div class="row">
                         <p class="col-sm-10">
                         We also provide a variety of Laptop types...
-                        <button>View our Laptops range here...</button>
-                            <div class="targetDIV2">
+                        <button>View our range here...</button>
+                            <div class="targetLaptops">
     
                             </div>
                         </p>
                     </div>
                 </article>
-                <article>
+                <article class="targetArcticle">
+                    <h2>PC Components</h2>
+                    <div class="row">
+                        <p class="col-sm-10">
+                        Our customers can also choose to upgrade their machines, by providing them with various components...
+                        <button>View our range here...</button>
+                            <div class="targetPcComponents">
+    
+                            </div>
+                        </p>
+                    </div>
+                </article>
+                <article class="targetArcticle">
+                    <h2>Peripherals</h2>
+                    <div class="row">
+                        <p class="col-sm-10">
+                        Our customers also have the option to choose from our selection of Peripherals...
+                        <button>View our range here...</button>
+                            <div class="targetPeripherals">
+    
+                            </div>
+                        </p>
+                    </div>
                 </article>
         </div>
         <div class="jumbotron3">

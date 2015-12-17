@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pccomponents>
+	<component>
+		<type>Gaming Computer Case</type>
+		<title>Corsair Graphite</title>
+		<model>760T - White</model>
+		<features>
+			Form Factor: Full Tower
+			Motherboard Support: Mini-ITX, MicroATX, ATX, E-ATX, XL-ATX
+			Case Drive Bays: (x3) 5.25in; (x4) 2.5in; (x6) Combo 3.5in/2.5in
+		</features>
+	</component>
+	<component>
+		<type>Gaming Motherboard</type>
+		<title>Asus Crossblade</title>
+		<model>AMD A88X</model>
+		<features>
+			Socket: Fm2+
+			Form factor: ATX Motherboard
+			Chipset: AMD A88X
+			RAM: 4x DDR3 modules
+			PCI: x3 PCI-E x16, x2 PCI-E x1, x2 PCI
+			SATA: 8x SATA 6GB/s
+			Connectors: x6 USB 3.0
+		</features>
+	</component>
+	<component>
+		<type>Gaming Graphics Card</type>
+		<title>Asus Radeon R9</title>
+		<model>290X ROG Matrix Platinum</model>
+		<features>
+			VRAM: 4 GB GDDRS @ 5400 MHZ
+			Core Clock: 1050 MHZ
+			Stream Processors: 2816
+			DirectX: 11.2
+		</features>
+	</component>
+	<component>
+		<type>Processor</type>
+		<title>Intel</title>
+		<model>5960X Extreme</model>
+		<features>
+			Cores: 8
+			Clock Speed: 3.00 GHz
+			Hyper-Threading Technology
+			Quad Channel DDR4 Controller
+			20MB L3 Cache
+		</features>
+	</component>
+	<component>
+		<type>Computer Storage</type>
+		<title>Seagate</title>
+		<model>SSHD Hybrid Drive</model>
+		<features>
+			Format: SSHD
+			Capacity: 1TB
+			Speed 7200 RPM
+			Size: 3.5"
+			Cache: 64 MB
+		</features>
+	</component>
+	<component>
+		<type>Power Supply Unit</type>
+		<title>Corsair</title>
+		<model>AX860i Digital ATX</model>
+		<features>
+			80 Plus Platinum
+			Fully modular
+		</features>
+	</component>
+</pccomponents>
