@@ -1,0 +1,37 @@
+{
+    "computer": [
+        {
+            "type": "Gaming",
+            "title": "Intel",
+            "model": "Core i7 4790K @ 4.6GHZ Overclocked Haswell Watercooled Gaming PC",
+            "motherboard": "GA-Z97X-Game Plus (rev. 1.0)",
+            "cpu": "Intel Core i7 4790K",
+            "ram": "16GB 2133MHz DDR3",
+            "storage": "SSD Samsung 120GB + 2TB HDD",
+            "gpu": "R9 290X 4GB",
+            "psu": "Super Flower 850W"
+        },
+        {
+            "type": "Home",
+            "title": "Primo",
+            "model": "Nano 3 Haswell Micro PC",
+            "motherboard": "GA-Z97X-Game Plus (rev. 1.0)",
+            "cpu": "4th generation Intel® Core™ i3 processor",
+            "ram": "8/16GB DDR3 1600MHz",
+            "storage": "mSATA Solid State Drive 500GB + 2TB HDD",
+            "gpu": "Intel HD 4400 Graphics",
+            "psu": "Super Flower 850W"
+        },
+        {
+            "type": "Work",
+            "title": "Intel Core i7 Professional Graphics Workstation",
+            "model": "Nano 3 Haswell Micro PC",
+            "motherboard": "GA-Z97X-Game Plus (rev. 1.0)",
+            "cpu": "Intel Core i7 HT Quad Core 3.6GHz",
+            "ram": "32GB DDR3 Memory",
+            "storage": "500GB HDD",
+            "gpu": "Intel H97 Chipset",
+            "psu": "Super Flower 850W"
+        }
+    ]
+}

@@ -40,6 +40,51 @@ router.get('/Computers.html', function(req, res) {
   
 });
 
+// HTML produced by XSL Transformation
+router.get('/Laptops.html', function(req, res) {
+  
+  // Read in XML and XSL files
+  var stylesheet = xslt.readXsltFile('Laptops.xsl');
+  var doc = xslt.readXmlFile('Laptops.xml');
+  
+  // Apply transformation
+  var result = xslt.transform(stylesheet, doc, []);
+  
+  // Render the result
+  res.send(result);
+  
+});
+
+// HTML produced by XSL Transformation
+router.get('/PCcomponents.html', function(req, res) {
+  
+  // Read in XML and XSL files
+  var stylesheet = xslt.readXsltFile('PCcomponents.xsl');
+  var doc = xslt.readXmlFile('PCcomponents.xml');
+  
+  // Apply transformation
+  var result = xslt.transform(stylesheet, doc, []);
+  
+  // Render the result
+  res.send(result);
+  
+});
+
+// HTML produced by XSL Transformation
+router.get('/Peripherals.html', function(req, res) {
+  
+  // Read in XML and XSL files
+  var stylesheet = xslt.readXsltFile('Peripherals.xsl');
+  var doc = xslt.readXmlFile('Peripherals.xml');
+  
+  // Apply transformation
+  var result = xslt.transform(stylesheet, doc, []);
+  
+  // Render the result
+  res.send(result);
+  
+});
+
 // POST request to add to JSON & XML files
 router.post('/post/json', function(req, res) {
 
@@ -47,25 +92,25 @@ router.post('/post/json', function(req, res) {
   function appendJSON(obj) {
 
     // Read in a JSON file
-    var JSONfile = fs.readFileSync('Countries.json', 'utf8');
+    var JSONfile = fs.readFileSync('Computers.json', 'utf8');
 
     // Parse the JSON file in order to be able to edit it 
     var JSONparsed = JSON.parse(JSONfile);
 
     // Add a new record into country array within the JSON file    
-    JSONparsed.country.push(obj);
+    JSONparsed.computer.push(obj);
 
     // Beautify the resulting JSON file
     var JSONformated = JSON.stringify(JSONparsed, null, 4);
 
     // Write the updated JSON file back to the system 
-    fs.writeFileSync('Countries.json', JSONformated);
+    fs.writeFileSync('Computers.json', JSONformated);
 
     // Convert the updated JSON file to XML     
-    var XMLformated = js2xmlparser("countries", JSONformated);
+    var XMLformated = js2xmlparser("computers", JSONformated);
 
     // Write the resulting XML back to the system
-    fs.writeFileSync('Countries.xml', XMLformated);
+    fs.writeFileSync('Computers.xml', XMLformated);
 
   }
 

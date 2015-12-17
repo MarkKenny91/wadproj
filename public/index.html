@@ -16,29 +16,17 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.5.1.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $("button").click(function() {
-                $(".targetDIV").load("Computers.html");
+            $("#Computers").click(function() {
+                $("#targetComputers").load("Computers.html");
             });
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".targetLaptops").load("Laptops.html");
+            $("#Laptops").click(function() {
+                $("#targetLaptops").load("Laptops.html");
             });
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".targetPcComponents").load("PcComponents.html");
+            $("#PCcomponents").click(function() {
+                $("#targetPCcomponents").load("PCcomponents.html");
             });
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".targetPeripherals").load("Peripherals.html");
+            $("#Peripherals").click(function() {
+                $("#targetPeripherals").load("Peripherals.html");
             });
         });
     </script>
@@ -88,10 +76,8 @@
                     <div class="row">
                         <p class="col-sm-10">
                         We provide a variety of Desktop types to the consumers according to their daily needs
-                        <button>View our range here...</button>
-                            <div class="targetDIV">
-    
-                            </div>
+                        <button id="Computers">View our range here...</button>
+                            <div id="targetComputers"></div>
                         </p>
                     </div>
                 </article>
@@ -100,10 +86,8 @@
                     <div class="row">
                         <p class="col-sm-10">
                         We also provide a variety of Laptop types...
-                        <button>View our range here...</button>
-                            <div class="targetLaptops">
-    
-                            </div>
+                        <button id="Laptops">View our range here...</button>
+                            <div id="targetLaptops"></div>
                         </p>
                     </div>
                 </article>
@@ -112,10 +96,8 @@
                     <div class="row">
                         <p class="col-sm-10">
                         Our customers can also choose to upgrade their machines, by providing them with various components...
-                        <button>View our range here...</button>
-                            <div class="targetPcComponents">
-    
-                            </div>
+                        <button id="PCcomponents">View our range here...</button>
+                            <div id="targetPCcomponents"></div>
                         </p>
                     </div>
                 </article>
@@ -124,10 +106,8 @@
                     <div class="row">
                         <p class="col-sm-10">
                         Our customers also have the option to choose from our selection of Peripherals...
-                        <button>View our range here...</button>
-                            <div class="targetPeripherals">
-    
-                            </div>
+                        <button id="Peripherals">View our range here...</button>
+                            <div id="targetPeripherals"></div>
                         </p>
                     </div>
                 </article>
@@ -139,28 +119,53 @@
 
         <div class="container-fluid">
             <h4>Contact Us:</h4>
-            <form role="form" action="server.js" method="post" class="ajax">
+            <form role="form" action="/post/json" method="post" class="ajax">
                 <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter name">
-                </div>
-
-                <div class="formgroup">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    <label for="Type">Type:</label>
+                    <input type="text" class="form-control" name="type" placeholder="Gaming" >
                 </div>
 
                 <div class="form-group">
-                    <label for="phone">Phone:</label>
-                    <input type="text" class="form-control bfh-phone" id="phone" placeholder="Enter phone">
+                    <label for="Title">Title:</label>
+                    <input type="text" class="form-control" name="title" placeholder="Intel">
                 </div>
 
                 <div class="form-group">
-                    <label for="comment">Comments:</label>
-                    <textarea class="form-control" id="comment" placeholder="Enter comment"></textarea>
+                    <label for="Model">Model:</label>
+                    <input type="text" class="form-control" name="model" placeholder="Core i7 4790K @ 4.6GHZ Overclocked Haswell Watercooled Gaming PCe">
                 </div>
 
-                <button type="submit" class="btn btn-default">Submit</button>
+                <div class="form-group">
+                    <label for="Motherboard">Motherboard:</label>
+                    <input type="text" class="form-control" name="motherboard" placeholder="GA-Z97X-Game">
+                </div>
+                
+                <div class="form-group">
+                    <label for="CPU">CPU:</label>
+                    <input type="text" class="form-control" name="cpu" placeholder="Intel Core i7 4790K">
+                </div>
+                
+                <div class="form-group">
+                    <label for="RAM">RAM:</label>
+                    <input type="text" class="form-control" name="ram" placeholder="16GB 2133MHz DDR3">
+                </div>
+                
+                <div class="form-group">
+                    <label for="Storage">Storage:</label>
+                    <input type="text" class="form-control" name="storage" placeholder="SSD Samsung 120GBe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="GPU">GPU:</label>
+                    <input type="text" class="form-control" name="gpu" placeholder="R9 290X 4GBe">
+                </div>
+                
+                <div class="form-group">
+                    <label for="PSU">PSU:</label>
+                    <input type="text" class="form-control" name="psu" placeholder="Super Flower 850W">
+                </div>
+                <button type="submit" class="btn btn-default">Place Order</button>
+                <button type="show-order" class = "btn btn-default">Show Order</button>
             </form>
 
 
