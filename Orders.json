@@ -1,5 +1,5 @@
 {
-    "computer": [
+    "orders": [
         {
             "type": "Gaming",
             "title": "Intel",
@@ -32,6 +32,11 @@
             "storage": "500GB HDD",
             "gpu": "Intel H97 Chipset",
             "psu": "Super Flower 850W"
+        },
+        {
+            "type": "Graphics Card",
+            "title": "Asus Radeon R9",
+            "model": ""
         }
     ]
 }

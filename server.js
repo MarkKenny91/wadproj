@@ -92,25 +92,25 @@ router.post('/post/json', function(req, res) {
   function appendJSON(obj) {
 
     // Read in a JSON file
-    var JSONfile = fs.readFileSync('Computers.json', 'utf8');
+    var JSONfile = fs.readFileSync('Orders.json', 'utf8');
 
     // Parse the JSON file in order to be able to edit it 
     var JSONparsed = JSON.parse(JSONfile);
 
-    // Add a new record into country array within the JSON file    
-    JSONparsed.computer.push(obj);
+    // Add a new record into the array within the JSON file    
+    JSONparsed.order.push(obj);
 
     // Beautify the resulting JSON file
     var JSONformated = JSON.stringify(JSONparsed, null, 4);
 
     // Write the updated JSON file back to the system 
-    fs.writeFileSync('Computers.json', JSONformated);
+    fs.writeFileSync('Orders.json', JSONformated);
 
     // Convert the updated JSON file to XML     
-    var XMLformated = js2xmlparser("computers", JSONformated);
+    var XMLformated = js2xmlparser("orders", JSONformated);
 
     // Write the resulting XML back to the system
-    fs.writeFileSync('Computers.xml', XMLformated);
+    fs.writeFileSync('Orders.xml', XMLformated);
 
   }
 
