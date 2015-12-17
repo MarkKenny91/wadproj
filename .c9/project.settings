@@ -8,7 +8,7 @@
     "build": {
         "@builder": "auto",
         "@path": "/.c9/builders",
-        "@saveall": true
+        "@saveall": "true"
     },
     "find.nak": {
         "@searchLimit": 100
@@ -26,7 +26,6 @@
     },
     "run": {
         "@path": "/.c9/runners",
-        "@runner": "Node 0.10.x",
         "configs": {
             "@inited": "true",
             "json()": {}
