@@ -97,6 +97,21 @@
             "type": "",
             "title": "",
             "model": ""
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "Graphics Card",
+            "title": "MSI Radeon R9",
+            "model": "280 x"
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
         }
     ]
 }
