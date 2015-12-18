@@ -86,6 +86,21 @@ router.get('/Peripherals.html', function(req, res) {
   
 });
 
+// HTML produced by XSL Transformation
+router.get('/Orders.html', function(req, res) {
+  
+  // Read in XML and XSL files
+  var stylesheet = xslt.readXsltFile('Orders.xsl');
+  var doc = xslt.readXmlFile('Orders.xml');
+  
+  // Apply transformation
+  var result = xslt.transform(stylesheet, doc, []);
+  
+  // Render the result
+  res.send(result);
+  
+});
+
 // POST request to add to JSON & XML files
 router.post('/post/json', function(req, res) {
 
