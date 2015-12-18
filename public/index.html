@@ -28,6 +28,9 @@
             $("#Peripherals").click(function() {
                 $("#targetPeripherals").load("Peripherals.html");
             });
+            $("#Orders").click(function() {
+                $("#targetOrders").load("Orders.html");
+            });
         });
     </script>
 
@@ -41,13 +44,13 @@
 </head>
 
 <body>
-    <script>
+    <!--<script>
     var xmlDoc = $.parseXML( 'Orders.xml' ),
     $xml = $( xmlDoc );
     $($xml).each(function(){
        alert($(this).find("order").text());
      });
-    </script>
+    </script>-->
 
 
     <header class="container-fluid">
@@ -142,10 +145,11 @@
                     <input type="text" class="form-control" name="model" placeholder="type here...">
                 </div>
                 <button type="submit" class="btn btn-default">Place an order</button>
-                <button type="show-order" class = "btn btn-default">Show placed order</button>
-                <div id = "targetOrders">View your requested orders here...</div>
             </form>
 
+            <div id = "targetOrders">
+                <button id = "Orders">Show placed order</button>
+            </div>
 
             </section>
 

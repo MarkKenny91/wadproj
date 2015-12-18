@@ -113,4 +113,29 @@
 		<title></title>
 		<model></model>
 	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type>Graphics Card</type>
+		<title>MSI Radeon R9</title>
+		<model>290 x</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type>dfdv</type>
+		<title>MSI Radeon R9</title>
+		<model>280 x</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
 </orders>
