@@ -1,5 +1,5 @@
 {
-    "orders": [
+    "order": [
         {
             "type": "Gaming",
             "title": "Intel",
@@ -36,6 +36,66 @@
         {
             "type": "Graphics Card",
             "title": "Asus Radeon R9",
+            "model": ""
+        },
+        {
+            "type": "sdf",
+            "title": "sdf",
+            "model": "sdf"
+        },
+        {
+            "type": "Graphics Card",
+            "title": "ASUS Radeon R9",
+            "model": "290 x"
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "Graphics Card",
+            "title": "ASUS Radeon R9",
+            "model": "280 x"
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "Graphics Card",
+            "title": "Gigabyte R9",
+            "model": "290 x"
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "Graphics Card",
+            "title": "MSI Radeon R9",
+            "model": "270 x"
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "GPU",
+            "title": "Sapphire R9",
+            "model": "390 x"
+        },
+        {
+            "type": "",
+            "title": "",
             "model": ""
         }
     ]

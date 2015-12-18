@@ -21,7 +21,8 @@ router.get('/', function(req, res) {
 // GET request to send back JSON file
 router.get('/get/json', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
-  var obj = JSON.parse(fs.readFileSync('Computers.json', 'utf8'));
+  var obj = JSON.parse(fs.readFileSync('Orders.json', 'utf8'));
+  console.log("test");
   res.end(JSON.stringify(obj));
 });
 

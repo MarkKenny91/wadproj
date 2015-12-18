@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<xml-stylesheet type="text/css" href="rss.css">
+
+    <channel>
+        <title>Computech Updates</title>
+        <link>https://compu-tech-ltd-x14114640.c9users.io/</link>
+        <description>Updates on our stocks</description>
+        <item>
+            <title>Processors!</title>
+            <description>New Intel 5960X Extreme processors have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Laptops!</title>
+            <description>New ASUS ROG G 551JW-Cn080H - 15.6" gaming laptops have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Graphics Cards!</title>
+            <description>New Asus Radeon R9 gaming graphics cards have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Desktops!</title>
+            <description>New Intel Gaming Desktop PC's with Intel i7 4.6GHZ processors have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Sound!</title>
+            <description>New Mircrolab 5.1 surround speakers have been added to our stocks!</description>
+        </item>
+        <item>
+            <title>Mouse!</title>
+            <description>We are delighted to announce additions of the Logitech G502 gaming mouse to our stocks!</description>
+        </item>
+        <item>
+            <title>What does a baby computer call his father?</title>
+            <description>Data!</description>
+        </item>
+        <item>
+            <title>What did the computer do at lunchtime?</title>
+            <description>Had a byte!</description>
+        </item>
+    </channel> 
+    
+
+<root />
+</rss>

@@ -1,1 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<orders>
+	<order>
+		<type>Graphics Card</type>
+		<title>Asus Radeon R9</title>
+		<model></model>
+	</order>
+	<order>
+		<type>sdf</type>
+		<title>sdf</title>
+		<model>sdf</model>
+	</order>
+	<order>
+		<type>Graphics Card</type>
+		<title>ASUS Radeon R9</title>
+		<model>290 x</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type>Graphics Card</type>
+		<title>ASUS Radeon R9</title>
+		<model>280 x</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type>Graphics Card</type>
+		<title>Gigabyte R9</title>
+		<model>290 x</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type>Graphics Card</type>
+		<title>MSI Radeon R9</title>
+		<model>270 x</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type>GPU</type>
+		<title>Sapphire R9</title>
+		<model>390 x</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+</orders>
