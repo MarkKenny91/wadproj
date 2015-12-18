@@ -1,142 +1,19 @@
 {
     "order": [
         {
-            "type": "Gaming",
-            "title": "Intel",
-            "model": "Core i7 4790K @ 4.6GHZ Overclocked Haswell Watercooled Gaming PC",
-            "motherboard": "GA-Z97X-Game Plus (rev. 1.0)",
-            "cpu": "Intel Core i7 4790K",
-            "ram": "16GB 2133MHz DDR3",
-            "storage": "SSD Samsung 120GB + 2TB HDD",
-            "gpu": "R9 290X 4GB",
-            "psu": "Super Flower 850W"
-        },
-        {
-            "type": "Home",
-            "title": "Primo",
-            "model": "Nano 3 Haswell Micro PC",
-            "motherboard": "GA-Z97X-Game Plus (rev. 1.0)",
-            "cpu": "4th generation Intel® Core™ i3 processor",
-            "ram": "8/16GB DDR3 1600MHz",
-            "storage": "mSATA Solid State Drive 500GB + 2TB HDD",
-            "gpu": "Intel HD 4400 Graphics",
-            "psu": "Super Flower 850W"
-        },
-        {
-            "type": "Work",
-            "title": "Intel Core i7 Professional Graphics Workstation",
-            "model": "Nano 3 Haswell Micro PC",
-            "motherboard": "GA-Z97X-Game Plus (rev. 1.0)",
-            "cpu": "Intel Core i7 HT Quad Core 3.6GHz",
-            "ram": "32GB DDR3 Memory",
-            "storage": "500GB HDD",
-            "gpu": "Intel H97 Chipset",
-            "psu": "Super Flower 850W"
-        },
-        {
-            "type": "Graphics Card",
-            "title": "Asus Radeon R9",
-            "model": ""
-        },
-        {
-            "type": "sdf",
-            "title": "sdf",
-            "model": "sdf"
-        },
-        {
-            "type": "Graphics Card",
-            "title": "ASUS Radeon R9",
+            "type": "GPU",
+            "title": "Gigabyte Windforce Radeon R9",
             "model": "290 x"
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "Graphics Card",
-            "title": "ASUS Radeon R9",
-            "model": "280 x"
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "Graphics Card",
-            "title": "Gigabyte R9",
-            "model": "290 x"
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "Graphics Card",
-            "title": "MSI Radeon R9",
-            "model": "270 x"
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
         },
         {
             "type": "GPU",
-            "title": "Sapphire R9",
-            "model": "390 x"
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "Graphics Card",
             "title": "MSI Radeon R9",
             "model": "280 x"
         },
         {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "Graphics Card",
-            "title": "MSI Radeon R9",
-            "model": "290 x"
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
-        },
-        {
-            "type": "dfdv",
-            "title": "MSI Radeon R9",
-            "model": "280 x"
-        },
-        {
-            "type": "",
-            "title": "",
-            "model": ""
+            "type": "CPU",
+            "title": "Intel Core i7",
+            "model": "5960"
         }
     ]
 }

@@ -1,141 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <orders>
 	<order>
-		<type>Gaming</type>
-		<title>Intel</title>
-		<model>Core i7 4790K @ 4.6GHZ Overclocked Haswell Watercooled Gaming PC</model>
-		<motherboard>GA-Z97X-Game Plus (rev. 1.0)</motherboard>
-		<cpu>Intel Core i7 4790K</cpu>
-		<ram>16GB 2133MHz DDR3</ram>
-		<storage>SSD Samsung 120GB + 2TB HDD</storage>
-		<gpu>R9 290X 4GB</gpu>
-		<psu>Super Flower 850W</psu>
-	</order>
-	<order>
-		<type>Home</type>
-		<title>Primo</title>
-		<model>Nano 3 Haswell Micro PC</model>
-		<motherboard>GA-Z97X-Game Plus (rev. 1.0)</motherboard>
-		<cpu>4th generation Intel® Core™ i3 processor</cpu>
-		<ram>8/16GB DDR3 1600MHz</ram>
-		<storage>mSATA Solid State Drive 500GB + 2TB HDD</storage>
-		<gpu>Intel HD 4400 Graphics</gpu>
-		<psu>Super Flower 850W</psu>
-	</order>
-	<order>
-		<type>Work</type>
-		<title>Intel Core i7 Professional Graphics Workstation</title>
-		<model>Nano 3 Haswell Micro PC</model>
-		<motherboard>GA-Z97X-Game Plus (rev. 1.0)</motherboard>
-		<cpu>Intel Core i7 HT Quad Core 3.6GHz</cpu>
-		<ram>32GB DDR3 Memory</ram>
-		<storage>500GB HDD</storage>
-		<gpu>Intel H97 Chipset</gpu>
-		<psu>Super Flower 850W</psu>
-	</order>
-	<order>
-		<type>Graphics Card</type>
-		<title>Asus Radeon R9</title>
-		<model></model>
-	</order>
-	<order>
-		<type>sdf</type>
-		<title>sdf</title>
-		<model>sdf</model>
-	</order>
-	<order>
-		<type>Graphics Card</type>
-		<title>ASUS Radeon R9</title>
+		<type>GPU</type>
+		<title>Gigabyte Windforce Radeon R9</title>
 		<model>290 x</model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type>Graphics Card</type>
-		<title>ASUS Radeon R9</title>
-		<model>280 x</model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type>Graphics Card</type>
-		<title>Gigabyte R9</title>
-		<model>290 x</model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type>Graphics Card</type>
-		<title>MSI Radeon R9</title>
-		<model>270 x</model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
 	</order>
 	<order>
 		<type>GPU</type>
-		<title>Sapphire R9</title>
-		<model>390 x</model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type>Graphics Card</type>
 		<title>MSI Radeon R9</title>
 		<model>280 x</model>
 	</order>
 	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type>Graphics Card</type>
-		<title>MSI Radeon R9</title>
-		<model>290 x</model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
-	</order>
-	<order>
-		<type>dfdv</type>
-		<title>MSI Radeon R9</title>
-		<model>280 x</model>
-	</order>
-	<order>
-		<type></type>
-		<title></title>
-		<model></model>
+		<type>CPU</type>
+		<title>Intel Core i7</title>
+		<model>5960</model>
 	</order>
 </orders>
