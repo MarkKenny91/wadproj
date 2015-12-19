@@ -14,6 +14,41 @@
             "type": "CPU",
             "title": "Intel Core i7",
             "model": "5960"
+        },
+        {
+            "type": "Graphics Card",
+            "title": "ASUS Radeon R9",
+            "model": "380 x"
+        },
+        {
+            "type": "testq",
+            "title": "test",
+            "model": "qtesfdf"
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
+        },
+        {
+            "type": "",
+            "title": "",
+            "model": ""
         }
     ]
 }

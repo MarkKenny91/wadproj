@@ -15,4 +15,39 @@
 		<title>Intel Core i7</title>
 		<model>5960</model>
 	</order>
+	<order>
+		<type>Graphics Card</type>
+		<title>ASUS Radeon R9</title>
+		<model>380 x</model>
+	</order>
+	<order>
+		<type>testq</type>
+		<title>test</title>
+		<model>qtesfdf</model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
+	<order>
+		<type></type>
+		<title></title>
+		<model></model>
+	</order>
 </orders>
